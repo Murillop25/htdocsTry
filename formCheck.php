@@ -6,17 +6,28 @@
     <title>Formulario con Checkbox/title>
 </head>
 <body>
+
 <?php
+
  echo"<h1>Suma de Números</h1>";
  echo "<br>";
-  if (isset($_REQUEST['check1'])) {
-    $suma = $_REQUEST['valor1'] + $_REQUEST['valor2'];
-    echo "La suma es:" . $suma . "<br>";
-  }
-  if (isset($_REQUEST['check2'])) {
-    $resta = $_REQUEST['valor1'] - $_REQUEST['valor2'];
-    echo "La resta es:" . $resta;
-  }
+
+//   if (isset($_REQUEST['check1'])) {
+//     $suma = $_REQUEST['valor1'] + $_REQUEST['valor2'];
+//     echo "La suma es:" . $suma . "<br>";
+//   }
+//   elseif (isset($_REQUEST['check2'])) {
+//     $resta = $_REQUEST['valor1'] - $_REQUEST['valor2'];
+//     echo "La resta es:" . $resta;
+//   }else {
+//     echo "Por favor, completa todos los campos correctamente.";
+//   }
+//     echo "<br>";
   ?>
+
+  <script>
+console.log('Hola mundo');
+
+  </script>
 </body>
 </html>
